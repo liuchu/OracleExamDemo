@@ -5,6 +5,10 @@ package com.chuliu.test;
  */
 public class Question100 {
 
+    public void main(){
+
+    }
+
     public static void main(String[] args) {
         int[] array;
 
