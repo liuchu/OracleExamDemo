@@ -1,5 +1,6 @@
 package com.chuliu.lambda;
 
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 /**
@@ -20,6 +21,11 @@ public class TestJavaFunctions {
         System.out.println("12>0并且12<10?"+predicate1.and(predicate2).test(12));
         System.out.println("-3>0或者-3<-10?"+predicate1.or(predicate3).test(-3));
         System.out.println("-12>0或者-12<-10?"+predicate1.or(predicate3).test(-12));
+    }
+
+    //Test Function
+    public static void TestFunction(){
+        //Function<Integer,String> function1 =
     }
 
 
