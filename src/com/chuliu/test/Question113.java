@@ -45,5 +45,7 @@ public class Question113 {
 
         System.out.println(a);
 
+        "dsa".substring(1,2);
+
     }
 }
